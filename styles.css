@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap');
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'JetBrains Mono', monospace;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.white {
+    color: white;
+}
+
+.small {
+    width: 250px;
+    height: 150px;
+}
+
+.poem-case {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.poem {
+    color: white;
+    display: flex;
+    flex-flow: column;
+}
+
+.max440-w {
+    max-width: 440px;
+}
+
+.pb-6 {
+    padding-bottom: 1.5rem;
+}
+
+.mx-6 {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.ml-3 {
+    margin-left: 0.75rem;
+}
+
+.prose {
+    font-size: inherit;
+    line-height: 1.1rem;
+}
+
+.pr375 {
+    padding-right: 0.375rem;
+}
+
+.text-xs {
+    font-size: .625rem;
+    line-height: 1rem;
+}
+
+#body2 {
+    display: flex;
+    flex-flow: column;
+}
+
+.t-head {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem;
+    padding: 1.5rem;
+}
+
+
+.body1 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.black {
+    background-color: #000000;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #cd3f25;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    left: 2rem;
+    right: 2rem;
+    top: 2rem;
+    width: 100%;
+    color: rgba(0,0,0,.5)
+}
+
+.header ul {
+    display: flex;
+    width: 100%;
+    gap: 33rem;
+}
+
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.folder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.folder a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.folderimg img {
+    width: 65px;
+    height: 65px;
+}
+
